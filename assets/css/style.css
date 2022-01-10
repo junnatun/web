@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Comfortaa&family=Fredoka+One&family=Indie+Flower&family=Mochiy+Pop+P+One&display=swap');
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "comfortaa";
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    position: relative;
+    
+}
+
+nav {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 1;
+    background: white;
+    
+
+}
+nav a {
+    font-size: 30px;
+    font-weight: 800;
+    float: left;
+    font-family: "comfortaa";
+    color: #F38181;
+
+}
+
+nav ul li  {
+    display: inline-block;
+    list-style: none;
+    
+}
+
+nav ul li a {
+    color: #F38181;
+    font-size: 15px;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+.kolom {
+    margin-left: 7%;
+    margin-top: 13%;
+}
+
+.kolom h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+    font-family: "comfortaa";
+}
+
+.kolom p {
+    line-height: 25px;
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+
+.images {
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.images img {
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+.images:hover .bg{
+    bottom: 40px;
+}
+.images:hover .jun {
+    left: 45%;
+}
+a.btn-pink {
+    background: #F38181;
+    border-radius: 20px;
+    margin-top: 5px;
+    padding: 10px 20px 10px 20px;
+    color: #ffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.btn-black {
+    background: black;
+    border-radius: 25px;
+    margin-top: 5px;
+    padding: 15px 25px 15px 25px;
+    color: #Ffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.home {
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    position: relative;
+    background: #F38181;
+}
+
+.home h1{
+    font-family: "Fredoka One";
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    line-height: 180px;
+}
+.menu {
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+}
+
+.menu div {
+    background-color: white;
+    margin: 50px;
+    width: 250px;
+    position: relative;
+    height: 300px;
+    border-radius: 30px;
+}
+.menu a img {
+    width: 90%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+.menu a {
+    text-align: center;
+    font-family: "Fredoka One";
+    font-size: 25px;
+    color: #F38181;
+}
+
+.contact {
+    font-family: "Fredoka One";
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.medsos {
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+}
+
+.medsos div {
+    background-color: white;
+    margin: 20px;
+    width: 300px;
+    position: relative;
+    height: 250px;
+    border-radius: 60px;
+}
+.medsos a img {
+    width: 70%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.text {
+    justify-content: left;
+    width: 700px;
+}
+
+.education {
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    position: relative;
+    background: #FCE38A;
+}
+.education h1 {
+    font-size: 50px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.education p{
+    font-size: 30px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+.img-edu {
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    left: 100px;
+}
+
+.img-edu img {
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+.img-edu:hover .bg{
+    bottom: 40px;
+}
+.img-edu:hover .jun {
+    left: 45%;
+}
+.education .kolom {
+    margin-left: 55%;
+    margin-top: 5%;
+}
